@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Pride & Prejudice",
+        "author": "Jane Austen",
+        "coverImage": "http://books.google.com/books/content?id=8EnkIc4hzEMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 2,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "coverImage": "http://books.google.com/books/content?id=PGR2AwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 3,
+        "title": "1984",
+        "author": "George Orwell",
+        "coverImage": "http://books.google.com/books/content?id=XxofEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 4,
+        "title": "Around the World in 80 Days",
+        "author": "Jules Verne",
+        "coverImage": "http://books.google.com/books/content?id=eAuAMvBiy8sC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 5,
+        "title": "Little Women",
+        "author": "Louisa May Alcott",
+        "coverImage": "http://books.google.com/books/content?id=HLToDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 6,
+        "title": "The Lord of the Rings: Complete sagas",
+        "author": "J. R. R. Tolkien",
+        "coverImage": "http://books.google.com/books/content?id=FKziXsnqLTEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 7,
+        "title": "Jane Eyre",
+        "author": "Charlotte Brontë",
+        "coverImage": "http://books.google.com/books/content?id=MsRAAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+    }
+]
