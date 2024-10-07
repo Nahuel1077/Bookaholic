@@ -36,7 +36,11 @@ export default function Search(){
             <h1 className={cormorant.className="section-text"}>Can we get you a book?</h1>
             <form className="search">
                 <input type="text" value={query} placeholder="Search book" onChange={handleInputChange}></input>
+<<<<<<< HEAD
                 <button type="submit" onClick={handleSubmit}>Search</button>
+=======
+                <button className="buttons" type="submit" onClick={handleSubmit}>Search</button>
+>>>>>>> master
             </form>
             <div className="results">
                 {books.length > 0 && books.map((book)=> (

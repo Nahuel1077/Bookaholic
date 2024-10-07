@@ -4,6 +4,17 @@ body{
   padding: 0;
 }
 
+<<<<<<< HEAD
+=======
+section{
+  overflow-x: hidden;
+}
+
+.inherit{
+  background: inherit !important;
+}
+
+>>>>>>> master
 .container{
   width: 100%;
   display: flex;
@@ -23,7 +34,11 @@ body{
 #cover-image{
   width: 100%;
   height: 100vh;
+<<<<<<< HEAD
   filter: opacity(0.75);
+=======
+  filter: brightness(0.7);
+>>>>>>> master
 }
 
 .text-in-image{
@@ -44,6 +59,18 @@ body{
   font-weight: bolder;
 }
 
+<<<<<<< HEAD
+=======
+.buttons{
+  background-color: rgb(107, 52, 7);
+  border-radius: 5%;
+  box-shadow: 1px 1px 0px 0px;
+  color: white;
+  height: 2rem;
+  font-weight: bolder;
+}
+
+>>>>>>> master
 #coverButton:hover{
   background-color: rgb(149 75 4);
   transition: .5s ease;
@@ -97,7 +124,10 @@ body{
   flex-direction: column;
   align-items: center;
   color: white;
+<<<<<<< HEAD
   padding-top: 50px;
+=======
+>>>>>>> master
 }
 
 .form-container h1{
@@ -233,12 +263,20 @@ body{
 
 .form{
   gap: 20px;
+<<<<<<< HEAD
+=======
+  margin-top: 50px;
+>>>>>>> master
 }
 
 .section-text{
   font-size: 3rem;
   text-align: center;
   font-family: '__Cormorant_6ce4a6';
+<<<<<<< HEAD
+=======
+  color: white;
+>>>>>>> master
 }
 
 .form input, textarea{
@@ -248,7 +286,11 @@ body{
 }
 
 /* Pages */
+<<<<<<< HEAD
 /* Products */
+=======
+/* Bestsellers */
+>>>>>>> master
 .products-container{
   width: 100%;
   background-image: url(../public/images/opened-book.png);
@@ -276,6 +318,43 @@ body{
   align-items: flex-start;
 }
 
+<<<<<<< HEAD
+=======
+/* Contact */
+.contact-background{
+  background-image: url(../public/images/library.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Products */
+.products-background{
+  background-image: url(../public/images/pile-of-books3.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+.margin-top{
+  margin-top: 80px;
+}
+
+.product{
+  width: 100%;
+}
+
+.bg-black{
+  background-color: #0000007d;
+}
+
+>>>>>>> master
 /* Responsive */
 
 @media (max-width:700px){
@@ -292,6 +371,21 @@ body{
     display: none;
   }
 
+<<<<<<< HEAD
+=======
+  #nav-no-responsive{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  } 
+
+>>>>>>> master
   .results{
     grid-template-columns: 1fr;
   }
@@ -312,11 +406,20 @@ body{
   .product-list{
     display: grid;
     grid-template-columns: 1fr;
+<<<<<<< HEAD
+=======
+    justify-items: center;
+>>>>>>> master
   }
 
   .product{
     display: flex;
     flex-direction: column;
     gap: 5px;
+<<<<<<< HEAD
+=======
+    width: 80%;
+    border-radius: 20px;
+>>>>>>> master
   }
 }
