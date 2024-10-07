@@ -21,11 +21,7 @@ const submitForm = (e) => {
 export default function Footer(){
 
     return(
-<<<<<<< HEAD
-        <div className="flex form-container bg-black">
-=======
         <div className="flex form-container bg-black inherit">
->>>>>>> master
             <div className="footer-text">
                 <p className={cormorant.className}>Bookaholic is a website designed to be your help when you are craving for something to read. For us, addicted to reading, it is a gamechanger when it comes to finding a good book. We'll be happy to help you</p>
                 <p className={cormorant.className}>Follow us on our social media for interesting content!</p>
@@ -41,11 +37,7 @@ export default function Footer(){
                     <input type="text" placeholder="Name" id="name"></input>
                     <input type="email" placeholder="Email" id="email"></input>
                     <textarea placeholder="Message" id="message"></textarea>
-<<<<<<< HEAD
-                    <button type="submit" id="form-submit" onClick={submitForm}>Submit</button>
-=======
                     <button className="buttons" type="submit" id="form-submit" onClick={submitForm}>Submit</button>
->>>>>>> master
                 </form>
             </div>
             <div className="image-container">

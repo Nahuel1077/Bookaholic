@@ -4,8 +4,6 @@ body{
   padding: 0;
 }
 
-<<<<<<< HEAD
-=======
 section{
   overflow-x: hidden;
 }
@@ -14,7 +12,6 @@ section{
   background: inherit !important;
 }
 
->>>>>>> master
 .container{
   width: 100%;
   display: flex;
@@ -34,11 +31,7 @@ section{
 #cover-image{
   width: 100%;
   height: 100vh;
-<<<<<<< HEAD
-  filter: opacity(0.75);
-=======
   filter: brightness(0.7);
->>>>>>> master
 }
 
 .text-in-image{
@@ -59,8 +52,6 @@ section{
   font-weight: bolder;
 }
 
-<<<<<<< HEAD
-=======
 .buttons{
   background-color: rgb(107, 52, 7);
   border-radius: 5%;
@@ -70,7 +61,6 @@ section{
   font-weight: bolder;
 }
 
->>>>>>> master
 #coverButton:hover{
   background-color: rgb(149 75 4);
   transition: .5s ease;
@@ -124,10 +114,6 @@ section{
   flex-direction: column;
   align-items: center;
   color: white;
-<<<<<<< HEAD
-  padding-top: 50px;
-=======
->>>>>>> master
 }
 
 .form-container h1{
@@ -263,20 +249,14 @@ section{
 
 .form{
   gap: 20px;
-<<<<<<< HEAD
-=======
   margin-top: 50px;
->>>>>>> master
 }
 
 .section-text{
   font-size: 3rem;
   text-align: center;
   font-family: '__Cormorant_6ce4a6';
-<<<<<<< HEAD
-=======
   color: white;
->>>>>>> master
 }
 
 .form input, textarea{
@@ -286,11 +266,7 @@ section{
 }
 
 /* Pages */
-<<<<<<< HEAD
-/* Products */
-=======
 /* Bestsellers */
->>>>>>> master
 .products-container{
   width: 100%;
   background-image: url(../public/images/opened-book.png);
@@ -318,8 +294,6 @@ section{
   align-items: flex-start;
 }
 
-<<<<<<< HEAD
-=======
 /* Contact */
 .contact-background{
   background-image: url(../public/images/library.png);
@@ -354,7 +328,6 @@ section{
   background-color: #0000007d;
 }
 
->>>>>>> master
 /* Responsive */
 
 @media (max-width:700px){
@@ -371,8 +344,6 @@ section{
     display: none;
   }
 
-<<<<<<< HEAD
-=======
   #nav-no-responsive{
     width: 100%;
     display: flex;
@@ -385,7 +356,6 @@ section{
     z-index: 1;
   } 
 
->>>>>>> master
   .results{
     grid-template-columns: 1fr;
   }
@@ -406,20 +376,14 @@ section{
   .product-list{
     display: grid;
     grid-template-columns: 1fr;
-<<<<<<< HEAD
-=======
     justify-items: center;
->>>>>>> master
   }
 
   .product{
     display: flex;
     flex-direction: column;
     gap: 5px;
-<<<<<<< HEAD
-=======
     width: 80%;
     border-radius: 20px;
->>>>>>> master
   }
 }

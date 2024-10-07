@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-import Nav from "../components/nav.js";
-import Footer from "../components/footer.js";
-import "./styles.css";
-export default function RootLayout({ children }) {   
-
-  return (
-    <section>
-      <Nav className="nav-no-responsive"/>
-      {children} 
-      <Footer /> 
-    </section>
-  )
-=======
 'use client'
 import { useEffect } from 'react';
 import Nav from '/app/components/nav'
@@ -52,5 +38,4 @@ export default function RootLayout({children}){
         </div>
       </section>
     );
->>>>>>> master
 }

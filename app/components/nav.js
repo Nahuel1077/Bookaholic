@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-import Link from 'next/link';
-
-export default function Nav(){
-    
-    
-    return(
-        <nav className="nav nav-responsive">
-            <div>
-                <img src="/images/logo-nav.svg" id="nav-logo"/>
-=======
 'use client'
 import Link from 'next/link';
 import { useEffect } from 'react';
@@ -42,7 +31,6 @@ export default function Nav(){
                 <Link href="/">
                     <img src="/images/logo-nav.svg" id="nav-logo"/>
                 </Link>
->>>>>>> master
             </div>
             <div className="nav-list">
                 <ul>
